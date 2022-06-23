@@ -14,29 +14,29 @@ postMerge :
         framework : jest
       
       
-#       - name:  framesync
-#         path : "./packages/framesync"
-#         pattern: 
-#           - "./src/_tests/*.test.ts"
+      - name:  framesync
+        path : "./packages/framesync"
+        pattern: 
+          - "./src/_tests/*.test.ts"
         
-#         framework : jest
+        framework : jest
         
         
-#       - name:  projection
-#         path : "./packages/projection"
-#         pattern: 
-#           - "./src/__tests__/*test.ts"
+      - name:  projection
+        path : "./packages/projection"
+        pattern: 
+          - "./src/__tests__/*test.ts"
         
-#         framework : jest
+        framework : jest
        
       
       
-#       - name:  style-value-types
-#         path : "./packages/style-value-types"
-#         pattern: 
-#           - "./src/_tests/*.ts"
+      - name:  style-value-types
+        path : "./packages/style-value-types"
+        pattern: 
+          - "./src/_tests/*.ts"
         
-#         framework : jest
+        framework : jest
        
         
 preMerge : 
