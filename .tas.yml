@@ -17,7 +17,7 @@ postMerge :
       - name:  framesync
         path : "./packages/framesync"
         pattern: 
-          - "./src/_tests/*.test.ts"
+          - "./src/_tests/test.ts"
         
         framework : jest
         
