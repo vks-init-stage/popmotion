@@ -1,9 +1,11 @@
-import type {Config} from '@jest/types';
+/*
+ * For a detailed explanation regarding each configuration property, visit:
+ * https://jestjs.io/docs/configuration
+ */
 
-const config: Config.InitialOptions = {
-  maxWorkers: 2,
-  testTimeout:10000
+module.exports = {
+  // Indicates whether each individual test should be reported during the run
+  verbose: true,
 
+  testTimeout: 15000
 };
-export default config;
-
