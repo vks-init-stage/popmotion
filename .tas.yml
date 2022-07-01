@@ -4,7 +4,7 @@ postMerge :
       - yarn install
       
   
-  subModules:          #Not to be changed
+  subModules:    
       
       - name:  popmotion
         path : "./packages/popmotion"
