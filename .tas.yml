@@ -12,7 +12,7 @@ postMerge :
           - "./src/**/__tests__/*.test.ts"
         
         framework : jest
-      
+        configFile: "./jest.config.ts"
       
       - name:  framesync
         path : "./packages/framesync"
