@@ -7,6 +7,7 @@ describe("onNextFrame", () => {
     })
 })
 
+
 describe("sync", () => {
     it("fires callbacks in the correct order", () => {
         return new Promise<void>((resolve, reject) => {
