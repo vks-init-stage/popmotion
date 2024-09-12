@@ -39,7 +39,10 @@ postMerge :
        
         
 preMerge : 
-  
+  preRun: 
+    command:
+      - yarn install
+      
   subModules:          #Not to be changed
      
     - name:  popmotion
@@ -56,6 +59,7 @@ preMerge :
         - "./src/_tests/test.ts"
 
       framework : jest
+      configFile: "./jest.config.js"
 
 
     - name:  projection
@@ -64,7 +68,6 @@ preMerge :
         - "./src/__tests__/*test.ts"
 
       framework : jest
-
 
 
     - name:  style-value-types
@@ -77,5 +80,7 @@ preMerge :
 version : 2.0.2
 nodeVersion : 17.3.1
 tier: medium
+
+
 
 
